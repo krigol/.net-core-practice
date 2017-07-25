@@ -10262,10 +10262,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\CORE\\Pluralsight\\TheWorld\\TheWorld\\TheWorld.csproj",
+      "projectUniqueName": "E:\\Projects\\CORE\\.net-core-practice\\TheWorld\\TheWorld\\TheWorld.csproj",
       "projectName": "TheWorld",
-      "projectPath": "E:\\Projects\\CORE\\Pluralsight\\TheWorld\\TheWorld\\TheWorld.csproj",
-      "outputPath": "E:\\Projects\\CORE\\Pluralsight\\TheWorld\\TheWorld\\obj\\",
+      "projectPath": "E:\\Projects\\CORE\\.net-core-practice\\TheWorld\\TheWorld\\TheWorld.csproj",
+      "outputPath": "E:\\Projects\\CORE\\.net-core-practice\\TheWorld\\TheWorld\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
