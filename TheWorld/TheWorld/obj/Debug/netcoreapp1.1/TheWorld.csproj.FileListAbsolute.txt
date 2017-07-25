@@ -1,0 +1,9 @@
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.deps.json
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.json
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.dev.json
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.dll
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.pdb
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.csprojResolveAssemblyReference.cache
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
+E:\Projects\CORE\Pluralsight\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
