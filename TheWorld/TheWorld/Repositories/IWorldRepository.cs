@@ -8,7 +8,11 @@ namespace TheWorld.Repositories
     {
         IEnumerable<Trip> GetAll();
 
+        Trip GetTripByName(string tripName);
+
         void AddTrip(Trip trip);
+        void AddStop(string tripName, Stop newStop);
+
         Task<bool> SaveChangesAsync();
     }
 }

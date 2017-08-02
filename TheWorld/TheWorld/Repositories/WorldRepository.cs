@@ -4,6 +4,7 @@ using System.Linq;
 using TheWorld.Models;
 using System;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace TheWorld.Repositories
 {
@@ -18,6 +19,17 @@ namespace TheWorld.Repositories
             _logger = logger;
         }
 
+        public void AddStop(string tripName, Stop newStop)
+        {
+            var trip = GetTripByName(tripName);
+
+            if (trip != null)
+            {
+                trip.Stops.Add(newStop);
+                _context.Stops.Add(newStop);
+            }
+        }
+
         public void AddTrip(Trip trip)
         {
             _context.Add(trip);
@@ -28,6 +40,14 @@ namespace TheWorld.Repositories
             _logger.LogInformation("Getting All trips from DB");
 
             return _context.Trips.ToList();
+        }
+
+        public Trip GetTripByName(string tripName)
+        {
+            return _context.Trips
+                .Include(t => t.Stops)
+                .Where(t => t.Name == tripName)
+                .FirstOrDefault();
         }
 
         public async Task<bool> SaveChangesAsync()

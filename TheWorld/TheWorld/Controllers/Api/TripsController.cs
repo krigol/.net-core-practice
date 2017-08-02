@@ -14,9 +14,9 @@ namespace TheWorld.Controllers.Api
     public class TripsController : Controller
     {
         private IWorldRepository _repository;
-        private ILogger<TripsController> _logger;
+        private Microsoft.Extensions.Logging.ILogger<TripsController> _logger;
 
-        public TripsController(IWorldRepository repository, ILogger<TripsController> logger)
+        public TripsController(IWorldRepository repository, Microsoft.Extensions.Logging.ILogger<TripsController> logger)
         {
             _logger = logger;
             _repository = repository;
