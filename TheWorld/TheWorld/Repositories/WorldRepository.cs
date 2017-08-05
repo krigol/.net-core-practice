@@ -19,9 +19,9 @@ namespace TheWorld.Repositories
             _logger = logger;
         }
 
-        public void AddStop(string tripName, Stop newStop)
+        public void AddStop(string tripName, Stop newStop, string username)
         {
-            var trip = GetTripByName(tripName);
+            var trip = GetUserTripByName(tripName, username);
 
             if (trip != null)
             {
@@ -29,7 +29,7 @@ namespace TheWorld.Repositories
                 _context.Stops.Add(newStop);
             }
         }
-
+        
         public void AddTrip(Trip trip)
         {
             _context.Add(trip);
@@ -50,14 +50,27 @@ namespace TheWorld.Repositories
                 .FirstOrDefault();
         }
 
+        public IEnumerable<Trip> GetTripsByUsername(string name)
+        {
+            return _context
+                .Trips
+                .Include(t => t.Stops)
+                .Where(tr => tr.UserName == name)
+                .OrderBy(tr => tr.Name)
+                .ToList();
+        }
+
+        public Trip GetUserTripByName(string tripName, string userName)
+        {
+            return _context.Trips
+                .Include(t => t.Stops)
+                .Where(t => t.Name == tripName && t.UserName == userName)
+                .FirstOrDefault();
+        }
+
         public async Task<bool> SaveChangesAsync()
         {
             return (await _context.SaveChangesAsync()) > 0;
         }
-
-        //public async Task<bool> SaveChangesAsync()
-        //{
-        //    return (await _context.SaveChangesAsync()) > 0;
-        //}
     }
 }

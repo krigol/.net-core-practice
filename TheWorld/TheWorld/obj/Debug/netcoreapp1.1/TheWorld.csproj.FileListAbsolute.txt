@@ -16,3 +16,12 @@ E:\Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\Th
 E:\Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
 E:\Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
 E:\Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.deps.json
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.json
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.dev.json
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.dll
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.pdb
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
+D:\Visual Studio Projects\CORE\.net-core-practice\TheWorld\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.csprojResolveAssemblyReference.cache
